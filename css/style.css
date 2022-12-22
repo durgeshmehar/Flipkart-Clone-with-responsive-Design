@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap'); 
+
+ *{margin: 0;padding: 0; outline:none; box-sizing: border-box;}
+header{ background-color:#2455f4;color:white;width:100vw;padding:0vw 0vw 0.4vw 0vw;}
+nav{display: flex;}
+.logo img{width: 6.5vw;height:2.5vw;padding:0.7vw 0vw 0vw 0vw}  
+#explore{ font-size: 1.1vw;}
+#plus{ font-style: italic; color:#ffe500;} 
+#plus-img{ height:1.2vw;width:1.2vw;padding: 0vw; margin:auto 0px;vertical-align: middle;}
+nav ul{padding:0 1vw;}
+nav ul li{list-style: none; padding:0 1vw;display:flex;justify-content: center;text-align: center;}
+nav ul li a{color:white;text-decoration: none;cursor: pointer;font-size:1.6vw;font-family: 'Source Sans Pro', sans-serif;}
+nav ul li a:hover{font-weight: bold;cursor: pointer;}
+
+.search input{ border-radius: 2px;width: 24vw;height: 2.6vw;padding: 0 10px;font-size: 1.3vw;border: none;font-weight: lighter;}
+.search button:nth-of-type(1){ position:relative;right:2vw;border: none;background-color:none;height:2.6vw;background-color: #fff;}
+.search .search-icon{color:#2455f4;font-size:1.4vw; }
+.search .search-icon:hover{cursor: pointer;}
+.search .btn{ font-family: 'Lato', sans-serif;
+font-weight: 700px; font-size: 1.4vw;border: none;}
+.search .btn:hover{font-weight:bold;}
+/* .container{min-height:79vh;} */
+.over{
+  width:99.5vw;
+  overflow:hidden;
+}
+.slider{margin:auto;height:32vw;width:80vw;background:white;display:flex;justify-content: center;}
+.slider img{height:30vw;width:100vw;}
+
+   @keyframes slide3{0%{transform:translate(-55vw);}100%{transform:translate(44vw);}}
+  @keyframes slide2{from{transform:translate(-80vw);}to{transform:translate(95vw);}}
+  @keyframes slide1{from{transform:translate(-20vw);}to{transform:translate(60vw);}}
+
+  .img3{transform:translate(-55vw);animation:slide3 2.3s ease-in 2s forwards}
+   .img2{transform:translate(-80vw);animation:slide2 5s ease-out 2.5s forwards}
+  .img1{transform:translate(-20vw);animation:slide1 3s ease-out 4s forwards} 
+
+h4{ font-family: 'Ubuntu', sans-serif;}
+.card{width:90vw;margin:5vh auto; overflow: hidden;}
+.card h4{font-size: 2.4vw;font-weight:600;}
+.card-item{display:inline-flex;justify-content: center;flex-direction: column;margin:3px 8px;}
+.card-item img{width:13vw;min-width:50px;}
+.lines{ margin-top: 6px;}
+.lines p{font-size:1.8vw;}
+.lines p:nth-of-type(1){font-family: Roboto,Arial,sans-serif;}
+.lines p:nth-of-type(2){color:rgb(30, 159, 30);}
+.lines p:nth-of-type(2) , .lines p:nth-of-type(3){font-size:1.6vw;}
+
+footer{
+  height:7vh;
+  background-color:#2455f4;;
+  color:white;
+  font-family: 'Lato', sans-serif;
+}
+footer p{
+  font-size:1.4vw;
+}
+
+
