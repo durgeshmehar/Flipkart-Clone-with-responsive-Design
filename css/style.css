@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap'); 
 
  *{margin: 0;padding: 0; outline:none; box-sizing: border-box;}
- body{background-color: #F1F3F6;overflow-x: hidden;}
+ body{background-color: #ededee;overflow-x: hidden;}
 header{ background-color:#2874f0;color:white;width:100vw;padding:0.2vw 0vw 0.2vw 0vw;font-family:Roboto,Arial,sans-serif;}
 nav{display: flex;}
 .logo{ margin-right: 1.5vw;}
@@ -11,8 +11,8 @@ nav{display: flex;}
 #plus{color:#ffe500;}
 #plus-img{ height:1.3vw;width:1.3vw;padding: 0.3vw; margin:auto 0px;vertical-align: middle;}
 .search .searchSpan{ margin-right: 4vw;}
-.search input{border-radius:2px; width: 35vw;height: 2.4vw;padding: 0 25px;font-size: 1.3vw;border: none;vertical-align: middle;}
-.search input::placeholder{ font-size: 1vw;}
+ .search input{border-radius:2px; width: 35vw;height: 2.4vw;padding: 0 25px;border: none;vertical-align: middle;}
+.search input::placeholder{ font-size: 1vw;} 
 .search .searchSpan button{cursor:pointer;color:red;position:relative;border: none;background:none;right:3vw;vertical-align: middle;}
 .searchbtn .search-icon{color:#2874f0;font-size:1.3vw;vertical-align: middle;}
 .search .btn{ font-size: 1.1vw;border: none;margin-right:0.7vw;font-weight: 600;} 
@@ -55,7 +55,7 @@ section .bar .barPara{
 
 .card{width:97vw;margin:5vh auto;background-color: #fff;}
 .card h4{padding:1.3vw 0 0 1.3vw;font-size: 2.4vw;font-family: 'Work Sans', sans-serif;font-weight: 100;letter-spacing: -0.5px;}
-.card-item{display:inline-flex;justify-content: center;flex-direction: column;margin:4px 12px;  font-family:Roboto,Arial,sans-serif;}
+.card-item{display:inline-flex;justify-content: center;flex-direction: column;margin:4px 12px 1vw 12px;  font-family:Roboto,Arial,sans-serif;padding:0 0 0.5vw 0;}
 .card-item img{width:13vw;min-width:50px;}
 .lines{ margin-top: 6px;}
 .lines p:nth-of-type(1){font-size:1.5vw;font-family: Roboto,Arial,sans-serif;}
@@ -74,7 +74,7 @@ section .bar .barPara{
   border: none;
 }
 .prev {
-  left:0;
+  left:0px;
   border-radius: 0px 4px 4px 0px;
 }
 .next{
@@ -103,7 +103,7 @@ section .bar .barPara{
   font-weight: 200;
 }
 .container .special-card .card-item button{
-  width: fit-content;
+  width: 8vw;
   margin:0 auto;
   padding:0.7vw;
   border: none;
@@ -143,8 +143,10 @@ footer .contact{
 footer .contact .contact-item p{
   color:#878787;
   padding:0 0 1vw 0;
+  font-size: 1.2vw;
 }
 footer .contact .vl{
   border-left: 1px solid #878787;
   padding-left:2vw;
 }
+

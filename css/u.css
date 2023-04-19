@@ -1,9 +1,37 @@
-@media screen and (max-width:530px){
+@media screen and (max-width:700px){
+   
+  .search .btn{ font-size: 2vw;}
+  .logo img{ height: 2vw;}
+  .inline{ font-size: 1vw;}
+  .BarSection{ padding:3vw 2vw;}
+  section .bar img { height: 5vw;width: 5vw;}
+   section .bar .barPara{ font-size: 1.2vw;}
+  .slider{ height:35vw;}
+  .slider img{height:35vw;}
+  .next{right:0px;}
+  .card{ margin:2vw auto;}
+  .viewAllText{ font-size: 1vw;}
+  .search input::placeholder{ font-size: 1.6vw;} 
+  .container .offer img {
+    margin:0 auto;
+    width: 70vw;
+    height: 15vw;
+    left:15vw;
+  }
+  .card-item img {
+    width:17vw;
+   }
+.lines p:nth-of-type(1){font-size:2vw;}
+.lines p:nth-of-type(2){font-size:1.7vw;}
+.lines p:nth-of-type(3){font-size:1.5vw;}
 
-  .slider{ height:28vw;}
-  .slider img{height:25vw;}
-  footer{height:4vh;}
-  footer p {font-size: 1.6vh;}
+  .contact-item .line{
+    font-size: 1.7vw;
+  }
+  footer .contact .contact-item p{
+    font-size: 2vw;
+    padding-bottom: 3vw;
+  }
 }
 .flex{
 display:flex;
