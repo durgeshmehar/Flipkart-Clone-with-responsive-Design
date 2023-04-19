@@ -20,13 +20,16 @@ align-items: center;
   margin-top: 2vw;
 }
 .btn{
-  padding:0.2vw 0.8vw;
-  color: white;
-background: #2455f4;
-border-radius:6px;
+padding:0.2vw 0.8vw;
+color: white;
+background: #2874f0;
+border-radius:2px;
 border: 2px solid #aabaee;
 cursor: pointer;}
 
 .my-2{margin:2.5vw 0;}
 .my-1{margin:3px 0px;}
 .text-center{text-align: center;}
+.inline{
+  display: inline-flex;
+}
