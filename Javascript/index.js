@@ -51,9 +51,9 @@ function automatic(){
             setTimeout( function(){
                 click=false;
                imageSlider();
-            },5000);
+            },4000);
         }   
-    },3500);
+    },2000);
 }
 
 
